@@ -5,6 +5,7 @@ let submitBtn = document.querySelector("#submitBtn");
 let showBtn = document.querySelector("#showMoodsBtn");
 let userMoods = document.querySelector("#userMoods");
 
+
 moodForm.addEventListener("submit", function (event) {
     event.preventDefault();
     let moodValue = mood.value;
@@ -24,4 +25,5 @@ moodForm.addEventListener("submit", function (event) {
 .catch(function (error) {
     console.log ("we got error", error);
 });
-});
+     });
+

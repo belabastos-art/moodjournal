@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /*hztal alignment*/
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#moodForm {
+    border: 2px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+label,
+#mood,
+#moodDesc,
+#submitBtn {
+    display: block;
+    margin-top: 5px;
+}
+
+#mood,
+#moodDesc {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#submitBtn,
+#showBtn {
+    background-color: darkturquoise;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#showBtn {
+    margin-top: 5px;
+}
